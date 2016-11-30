@@ -11,7 +11,8 @@
 #define wifi_ssid "510_user"
 #define wifi_password "helloyou"
 
-#define mqtt_server "YOUR_MQTT_SERVER_HOST"
+
+#define mqtt_server "106.1.209.117:1883"
 #define mqtt_user "your_username"
 #define mqtt_password "your_password"
 
@@ -24,14 +25,6 @@
 WiFiClient espClient;
 PubSubClient client(espClient);
 DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266
-
-void setup() {
-  Serial.begin(115200);
-  dht.begin();
-  setup_wifi();
-  client.setServer(mqtt_server, 1883);
-}
-
 void setup_wifi() {
   delay(10);
   // We start by connecting to a WiFi network
@@ -51,6 +44,14 @@ void setup_wifi() {
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
 }
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+  setup_wifi();
+  client.setServer(mqtt_server, 1883);
+}
+
+
 
 void reconnect() {
   // Loop until we're reconnected
