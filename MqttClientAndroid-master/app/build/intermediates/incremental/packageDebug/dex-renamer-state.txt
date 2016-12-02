@@ -1,0 +1,7 @@
+#Fri Dec 02 18:20:05 GMT+08:00 2016
+base.0=C\:\\Users\\Sam\\Desktop\\MqttClientAndroid-master\\MqttClientAndroid-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b433f145367016635205ad4e364c2d150dbb259e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Sam\\Desktop\\MqttClientAndroid-master\\MqttClientAndroid-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_07d3ff151668fb8ac7823bcfbc329b1e9e5d4dd6\\classes.dex
+base.1=C\:\\Users\\Sam\\Desktop\\MqttClientAndroid-master\\MqttClientAndroid-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_07d3ff151668fb8ac7823bcfbc329b1e9e5d4dd6
+file.0=C\:\\Users\\Sam\\Desktop\\MqttClientAndroid-master\\MqttClientAndroid-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b433f145367016635205ad4e364c2d150dbb259e\\classes.dex

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_e13c383e0686de708a80b1c2a44729b285a63727\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c361930ac290ba741810934460273d8e3a3a54b1">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_07d3ff151668fb8ac7823bcfbc329b1e9e5d4dd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\exploded-aar\com.github.LichFaker\Logger\v1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="faa26175f8b41a8c4929afd579d5c2cd29ce3926">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.LichFaker-Logger-v1.0.0_467a91ef22bee940e8df319e819b5f2b52033d76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\.gradle\caches\modules-2\files-2.1\org.eclipse.paho\org.eclipse.paho.client.mqttv3\1.0.2\11752d3f24d1a9deda4533a7ca18d8496417ceeb\org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="11752d3f24d1a9deda4533a7ca18d8496417ceeb">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.eclipse.paho.client.mqttv3-1.0.2_b5e1a939dd15bb0b556d78b8251ff630c211aefd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_52580370b7c1bbc3b3b3e9e8f50c4c60f5068cac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_7fdb7d97731713e072f2bd139fa051463da2f3a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_50aefcee17a7c18b08c14a59b755e6e10575cd40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_6b32548eb13b524f49ab0279f7f065aa45db515e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_7fdb885c7a46d58bfb11a57d8e5ff516654b78a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_f985b1d39f3d81aa388193709c014a80f57a9d3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7c2bc54b76f145aa1de8e8cee188a39f4be0a2e7">
+        <dex dex="C:\Users\Sam\Desktop\MqttClientAndroid-master\MqttClientAndroid-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b433f145367016635205ad4e364c2d150dbb259e\classes.dex" />
+    </item>
+
+</items>
