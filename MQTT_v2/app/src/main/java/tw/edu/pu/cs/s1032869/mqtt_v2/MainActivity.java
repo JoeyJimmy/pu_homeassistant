@@ -2,9 +2,12 @@ package tw.edu.pu.cs.s1032869.mqtt_v2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
+import org.eclipse.paho.client.mqttv3.MqttCallback;
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttClientPersistence;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
@@ -16,16 +19,19 @@ public class MainActivity extends AppCompatActivity {
 
     private MqttClient client;
     private MqttConnectOptions connOpts;
-    private String topic = "123";
-    private String content = "111";
-    private int qos = 2;
-    private String broker = "tcp://192.168.43.8:1883";
+    private String topic = "hello";
+    private String content = "123";
+    private int qos = 0;
+    private String broker = "tcp://192.168.0.150:1883";
     private String clientId = "username";
     MemoryPersistence persistence;
 
     private TextView txv;
     private Button conBtn;
     private Button publishBtn;
+    private Button subscribeBtn;
+    private Button disconBtn;
+
 
 
     @Override
@@ -34,9 +40,50 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         txv = (TextView) findViewById(R.id.textView);
-        conBtn = (Button) findViewById(R.id.button);
-        publishBtn = (Button) findViewById(R.id.button2);
+        conBtn = (Button) findViewById(R.id.connect);
+        publishBtn = (Button) findViewById(R.id.publish);
+        subscribeBtn = (Button) findViewById(R.id.subscribe);
+        disconBtn = (Button) findViewById(R.id.disconnect);
+
+        conBtn.setOnClickListener(cB);
+        publishBtn.setOnClickListener(pB);
+        subscribeBtn.setOnClickListener(sB);
+        disconBtn.setOnClickListener(dB);
+
     }
+
+    //底下是按鈕
+
+    public Button.OnClickListener cB =new Button.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            connect();
+        }
+
+    };
+    public Button.OnClickListener pB =new Button.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            publish();
+        }
+
+    };
+    public Button.OnClickListener sB =new Button.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            subscribe();
+        }
+
+    };
+    public Button.OnClickListener dB =new Button.OnClickListener(){
+        @Override
+        public void onClick(View v) {
+            disconnect();
+        }
+
+    };
+
+    //底下是方法 勿動!
 
     public void connect()
     {
@@ -66,16 +113,18 @@ public class MainActivity extends AppCompatActivity {
         {
             flag = false;
         }
-        txv.setText(String.valueOf(flag));
+        txv.setText("你 CONNECT 的狀態是: "+String.valueOf(flag));
     }
 
     public void publish()
     {
         MqttMessage message = new MqttMessage(content.getBytes());
         message.setQos(qos);
+
         try
         {
             client.publish(topic, message);
+            txv.setText("你 PUBLISH 的字串是: "+String.valueOf(content));
         }
         catch (MqttException e)
         {
@@ -93,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
         try
         {
             client.subscribe(topic, qos);
+            //txv.setText("你 SUBSCRIBE 獲得的字串是: "+String.valueOf());
         }
         catch(MqttException e)
         {
@@ -121,4 +171,24 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 }
+
+
+//底下是實現callback的一種方法
+//client.setCallback(new MqttCallback() {
+//@Override
+//public void connectionLost(Throwable cause) {
+//
+//        }
+//
+//@Override
+//public void messageArrived(String topic, MqttMessage message) throws Exception {
+//        txv.setText(String.valueOf(message.getPayload()));
+//        }
+//
+//@Override
+//public void deliveryComplete(IMqttDeliveryToken token) {
+//
+//        }
+//        });

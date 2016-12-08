@@ -28,10 +28,10 @@
 
 // Update these with values suitable for your network.
 
-const char* ssid = "cmrdb_wlan";
-const char* password = "cmrdb_base@402";
+const char* ssid = "HITRON-BC50";
+const char* password = "honorificabilitudinitatibus";
 
-const char* mqtt_server = "192.168.43.8";
+const char* mqtt_server = "192.168.0.150";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -82,7 +82,7 @@ void setup() {
   pinMode(BUILTIN_LED, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
   Serial.begin(115200);
   setup_wifi();
-  client.setServer(mqtt_server, 10449); // need to change to your port number
+  client.setServer(mqtt_server, 1883); // need to change to your port number
   client.setCallback(callback);
 }
 
