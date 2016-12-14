@@ -1,5 +1,9 @@
 package tw.edu.pu.cs.s1032869.mqtt_v2;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,7 +54,21 @@ public class MainActivity extends AppCompatActivity {
         subscribeBtn.setOnClickListener(sB);
         disconBtn.setOnClickListener(dB);
 
+        this.registerReceiver(batteryInfoReceiver, new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
+
     }
+
+    private BroadcastReceiver batteryInfoReceiver = new BroadcastReceiver(){
+        @Override
+        public void onReceive(Context context, Intent intent){
+            int lv=intent.getIntExtra("level",0);
+            txv.setText("目前電量為:"+String.valueOf(lv)+"%");
+            if(lv == 100)
+            {
+                publish();
+            }
+        }
+    };
 
     //底下是按鈕
 
