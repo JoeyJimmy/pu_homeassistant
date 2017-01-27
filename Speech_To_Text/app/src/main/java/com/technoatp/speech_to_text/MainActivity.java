@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
     TextToSpeech t1;
     private ImageButton btnSpeak;
     private TextView Text;
+    private int arrindex=0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,6 +73,7 @@ public class MainActivity extends Activity {
         2.由第二個應用行為顯示指定的結果代碼。此代碼是 RESULT_OK (若操作成功) 或 RESULT_CANCELED (若因故使用者退出或操作失敗)。
         3.攜帶結果資料的 Intent。
          */
+
         switch (requestCode) {
             case RESULT_SPEECH: {
                 if (resultCode == RESULT_OK && null != data) {
@@ -79,27 +81,65 @@ public class MainActivity extends Activity {
                     ArrayList<String> text = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
 
-                    //Text.setText(text.get(0));
-                    switch(text.get(0))
-                    {
-                        case "關燈":
-                            Toast.makeText(getApplicationContext(), "好的將為您關燈",Toast.LENGTH_SHORT).show();
-                            t1.speak("好的將為您關燈", TextToSpeech.QUEUE_FLUSH, null);
-                            break;
-                        case "開燈":
-                            Toast.makeText(getApplicationContext(), "好的將為您開燈",Toast.LENGTH_SHORT).show();
-                            t1.speak("好的將為您開燈", TextToSpeech.QUEUE_FLUSH, null);
-                            break;
-                        default:
-                            Toast.makeText(getApplicationContext(), "你說的不清楚，請再說一次",Toast.LENGTH_SHORT).show();
-                            t1.speak("你說的不清楚，請再說一次", TextToSpeech.QUEUE_FLUSH, null);
-                    }
-                    /*Toast.makeText(getApplicationContext(), text.get(0),Toast.LENGTH_SHORT).show();
-                    t1.speak(text.get(0), TextToSpeech.QUEUE_FLUSH, null);*/
-                }
-                break;
-            }
 
+                    Text.setText(text.get(arrindex));
+                    for (int i = 0; i < text.get(arrindex).length(); i++) {
+                        if(text.get(arrindex).charAt(i) == '關')
+                        {
+                            System.out.println("成功進來");
+                            for(int j=0;j<text.get(arrindex).length();j++)
+                            {
+                                switch(text.get(arrindex).charAt(j))
+                                {
+                                    case '燈':
+                                        Toast.makeText(getApplicationContext(), "好的將為您關燈", Toast.LENGTH_SHORT).show();
+                                        t1.speak("好的將為您關燈", TextToSpeech.QUEUE_FLUSH, null);
+                                        Text.setText("好的將為您關燈");
+                                        break;
+                                    case '窗':
+                                        Toast.makeText(getApplicationContext(), "好的將為您關窗", Toast.LENGTH_SHORT).show();
+                                        t1.speak("好的將為您關窗", TextToSpeech.QUEUE_FLUSH, null);
+                                        Text.setText("好的將為您關窗");
+                                        break;
+                                    default:
+                                        break;
+                                }
+
+                            }
+                            break;
+                        }
+                        else if(text.get(arrindex).charAt(i) == '開')
+                        {
+                            System.out.println("成功進來");
+                            for(int j=0;j<text.get(arrindex).length();j++)
+                            {
+                                switch(text.get(arrindex).charAt(j))
+                                {
+                                    case '燈':
+                                        Toast.makeText(getApplicationContext(), "好的將為您開燈", Toast.LENGTH_SHORT).show();
+                                        t1.speak("好的將為您開燈", TextToSpeech.QUEUE_FLUSH, null);
+                                        break;
+                                    case '窗':
+                                        Toast.makeText(getApplicationContext(), "好的將為您開窗", Toast.LENGTH_SHORT).show();
+                                        t1.speak("好的將為您開窗", TextToSpeech.QUEUE_FLUSH, null);
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            break;
+                        }
+
+                    }
+                    text.remove(arrindex);
+                    break;
+
+
+
+                }
+
+            }
         }
+
     }
 }
