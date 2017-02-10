@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     private MqttClient client;
     private MqttConnectOptions connOpts;
     private String topic = "hello";
-    private String content = "123";
+    private String content = "0";
     private int qos = 0;
-    private String broker = "tcp://192.168.0.150:1883";
+    private String broker = "tcp://192.168.43.8:1883";
     private String clientId = "username";
     MemoryPersistence persistence;
 
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent){
             int lv=intent.getIntExtra("level",0);
             txv.setText("目前電量為:"+String.valueOf(lv)+"%");
-            if(lv == 100)
+            if(lv == 62)
             {
                 publish();
             }
