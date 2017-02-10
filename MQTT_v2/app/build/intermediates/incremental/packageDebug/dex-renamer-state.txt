@@ -1,0 +1,7 @@
+#Fri Dec 16 17:23:20 GMT+08:00 2016
+base.0=D\:\\GitHub\\pu_homeassistant\\MQTT_v2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3059b6c5b0dfa804b657955cad316446f4212d19
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\GitHub\\pu_homeassistant\\MQTT_v2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7bcadb32714f214f1a8f47ef9e276e501caafc1a\\classes.dex
+base.1=D\:\\GitHub\\pu_homeassistant\\MQTT_v2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7bcadb32714f214f1a8f47ef9e276e501caafc1a
+file.0=D\:\\GitHub\\pu_homeassistant\\MQTT_v2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3059b6c5b0dfa804b657955cad316446f4212d19\\classes.dex

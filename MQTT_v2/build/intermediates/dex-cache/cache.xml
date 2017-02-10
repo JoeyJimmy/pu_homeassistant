@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5c9236dfdd658990076c0d53d3f386131e93e7c7">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3059b6c5b0dfa804b657955cad316446f4212d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_9042e4e3000ed75d829b93b91d7e8f1dbf85eeb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_f625243ab318779b81bdb26de6e1c90eb0b42e9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0e0337b17dd4daaf2e66142a867d3c7cc59b02ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_a25ca95a4bff96f5d2c9593893176a785ce20bbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_37f32f3f5bc39f593d44127d103cd0941bcc14ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c640cf128f5337fc7e33da91a1957b1981d9675c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c6f65bf6c118411120a1d043eb8060e3d50e430f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_192c177c5417e4b12339502cc50b8c783e71ef69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="291dddd9df1b34666528bb7085f1fa8075c87b24">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7bcadb32714f214f1a8f47ef9e276e501caafc1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_70e9621470d909d6ff580672c5b32b89efef444b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sam\.gradle\caches\modules-2\files-2.1\org.eclipse.paho\org.eclipse.paho.client.mqttv3\1.0.2\11752d3f24d1a9deda4533a7ca18d8496417ceeb\org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="11752d3f24d1a9deda4533a7ca18d8496417ceeb">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.eclipse.paho.client.mqttv3-1.0.2_b5e1a939dd15bb0b556d78b8251ff630c211aefd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_b9c9833501f1d25484d7589882d3fbffd3eedbac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_b0b9b7a01740176007a91836997ac98ace26e90c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_80511d4346ea5a218c7e8db6208e5a22f1b0cb2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_25e16c4f473435a159e5cf44b544a5b0662966c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_d1f3cd6689e49197528f82e3350da92c0b86f5b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\GitHub\pu_homeassistant\MQTT_v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_30145938024294624c8bdf03d3e4baf0a573d841\classes.dex" />
+    </item>
+
+</items>
